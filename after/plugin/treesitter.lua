@@ -34,7 +34,7 @@ require'nvim-treesitter.configs'.setup {
         enable = true,
         prev_selection = ',',
         keymaps = {
-            ['<cr>'] = 'textsubjects-smart',
+            ['.'] = 'textsubjects-smart',
             [';'] = 'textsubjects-container-outer',
             ['i;'] = 'textsubjects-container-inner'
         }
